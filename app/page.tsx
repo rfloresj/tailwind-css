@@ -1,8 +1,12 @@
 export default function Home() {
   return (
-    <div className="flex-col min-h-screen space-y-4">
-      <div className="w-1/5 bg-red-500">Sidebar</div>
-      <div className="w-4/5 bg-green-500">Main Content</div>
+    <div className="Parent">
+      <div>Header</div>
+      <div className="flex items-baseline">
+        <div className="bg-sky-500 pt-2 pb-6">01</div>
+        <div className="pt-8 pb-12 bg-red-500">02</div>
+        <div className="pt-12 pb-4 bg-green-500">03</div>
+      </div>
     </div>
   );
 }
